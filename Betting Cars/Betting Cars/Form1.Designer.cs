@@ -74,38 +74,48 @@
             // 
             // redBtn
             // 
+            redBtn.BackColor = Color.Beige;
             redBtn.Location = new Point(830, 50);
             redBtn.Name = "redBtn";
             redBtn.Size = new Size(100, 50);
             redBtn.TabIndex = 7;
-            redBtn.Text = "Red Car";
+            redBtn.Text = "Mustang Car";
+            redBtn.UseVisualStyleBackColor = false;
             redBtn.Click += redBtn_Click;
             // 
             // blackBtn
             // 
+            blackBtn.BackColor = Color.Beige;
             blackBtn.Location = new Point(830, 120);
             blackBtn.Name = "blackBtn";
             blackBtn.Size = new Size(100, 50);
             blackBtn.TabIndex = 6;
-            blackBtn.Text = "Black Car";
+            blackBtn.Text = "Track Car";
+            blackBtn.UseVisualStyleBackColor = false;
             blackBtn.Click += blackBtn_Click;
             // 
             // orangeBtn
             // 
+            orangeBtn.BackColor = Color.Beige;
+            orangeBtn.ForeColor = SystemColors.Desktop;
             orangeBtn.Location = new Point(830, 190);
             orangeBtn.Name = "orangeBtn";
             orangeBtn.Size = new Size(100, 50);
             orangeBtn.TabIndex = 5;
-            orangeBtn.Text = "Orange Car";
+            orangeBtn.Text = "Cartoon Car";
+            orangeBtn.UseVisualStyleBackColor = false;
             orangeBtn.Click += orangeBtn_Click;
             // 
             // startBtn
             // 
+            startBtn.BackColor = Color.Gold;
+            startBtn.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             startBtn.Location = new Point(830, 260);
             startBtn.Name = "startBtn";
             startBtn.Size = new Size(100, 50);
             startBtn.TabIndex = 4;
             startBtn.Text = "Start Race";
+            startBtn.UseVisualStyleBackColor = false;
             startBtn.Click += startBtn_Click;
             // 
             // timer1
@@ -126,6 +136,7 @@
             // 
             // Form1
             // 
+            BackColor = Color.Indigo;
             ClientSize = new Size(950, 425);
             Controls.Add(panel1);
             Controls.Add(startBtn);

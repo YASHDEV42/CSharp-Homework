@@ -3,26 +3,14 @@ namespace HangMan
 {
     public partial class Form1 : Form
     {
-        #region Vars
-        List<string> words = new List<string>
-        {
-            "apple",
-            "banana",
-            "cherry",
-            "date",
-            "fig",
-            "grape",
-            "kiwi",
-            "lemon",
-            "mango",
-            "nectarine"
-        };
-        int incorrectGuess;
-        Random random;
-        string selectedWord;
-        char[] displayWord;
-        #endregion
-
+        private int incorrectGuess;
+        private Random random;
+        private List<string> words = new List<string>
+{
+    "apple", "banana", "cherry", "grape", "orange", "strawberry"
+};
+        private string selectedWord;
+        private char[] displayWord;
         public Form1()
         {
             InitializeComponent();
